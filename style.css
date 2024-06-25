@@ -1,17 +1,16 @@
 body {
   margin: 0;
   height: 100vh;
-  background-image: url(img/Fond.png);
+  background-image: url(img/fond2.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
 }
 ul {
   height: 50vh;
-  width: 47vw;
   padding: 0;
   display: flex;
   flex-direction: column;
@@ -23,19 +22,18 @@ li {
 }
 a{
     color: gray;
-    font-size: 1.5vw;
+    /* font-size: 1.5vw; */
 }
 p{  
     color: #d84b0f;
-    font-size: 2vw;
+    /* font-size: 2vw; */
 }
 /* Liens du Modal */
 .modal-trigger {
   color: #d84b0f;
   cursor: pointer;
-  font-size: 3vw;
+  /* font-size: 3vw; */
   height: 40vh;
-  width: 47vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -58,4 +56,16 @@ p{
 }
 .close1 {
   height: 2vw;
+}
+
+/* Format Mobile  */
+@media screen and (max-width: 424px){
+
+}
+/* Format Mobile  */
+@media screen and (min-width: 425px) and (max-width: 768px){
+  /* .modal-trigger{
+    font-size: 2vw;
+  } */
+
 }
